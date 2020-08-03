@@ -1,3 +1,5 @@
+sudo -i -u postgres
+psql
 psql -U postgres -h localhost
 CREATE DATABASE centime;
 create user centime;
