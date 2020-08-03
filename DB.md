@@ -1,6 +1,6 @@
-sudo -i -u postgres
-psql
-psql -U postgres -h localhost
+sudo -i -u postgres;
+psql;
+psql -U postgres -h localhost;
 CREATE DATABASE centime;
 create user centime;
 alter user centime with encrypted password 'centime';
